@@ -1,0 +1,170 @@
+{
+  "project_info": {
+    "project_number": "551633296470",
+    "project_id": "dalel-b3c80",
+    "storage_bucket": "dalel-b3c80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551633296470:android:3de3cd155219379f026ff7",
+        "android_client_info": {
+          "package_name": "com.example.arcadia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551633296470-ag15ad7aa768gdnh5hp2rj72a5fkqi3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arcadia",
+            "certificate_hash": "26082c4bec2cdeece89fccdf68baef956638518b"
+          }
+        },
+        {
+          "client_id": "551633296470-nsoob170tultbl1or7sm8tp6vhefbkbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo56LabMniut6uJo7U24axX23Am0i5zkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551633296470-nsoob170tultbl1or7sm8tp6vhefbkbj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "551633296470-0sbuo2ujg00radd965h9rpjjue2d0bk7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.arcadia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551633296470:android:54ae852de71b7916026ff7",
+        "android_client_info": {
+          "package_name": "com.example.dalel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551633296470-nsoob170tultbl1or7sm8tp6vhefbkbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo56LabMniut6uJo7U24axX23Am0i5zkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551633296470-nsoob170tultbl1or7sm8tp6vhefbkbj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "551633296470-0sbuo2ujg00radd965h9rpjjue2d0bk7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.arcadia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551633296470:android:fa9d8236a84bcace026ff7",
+        "android_client_info": {
+          "package_name": "com.example.fruits_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551633296470-pihvbjpsqp5eiaafrqvhvd75f77v9s29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fruits_app",
+            "certificate_hash": "26082c4bec2cdeece89fccdf68baef956638518b"
+          }
+        },
+        {
+          "client_id": "551633296470-nsoob170tultbl1or7sm8tp6vhefbkbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo56LabMniut6uJo7U24axX23Am0i5zkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551633296470-nsoob170tultbl1or7sm8tp6vhefbkbj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "551633296470-0sbuo2ujg00radd965h9rpjjue2d0bk7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.arcadia"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551633296470:android:58663353a73df250026ff7",
+        "android_client_info": {
+          "package_name": "com.example.fruits_hub_dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551633296470-nsoob170tultbl1or7sm8tp6vhefbkbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo56LabMniut6uJo7U24axX23Am0i5zkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551633296470-nsoob170tultbl1or7sm8tp6vhefbkbj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "551633296470-0sbuo2ujg00radd965h9rpjjue2d0bk7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.arcadia"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
