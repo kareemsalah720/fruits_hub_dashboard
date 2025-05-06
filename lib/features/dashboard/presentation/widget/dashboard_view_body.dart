@@ -16,7 +16,7 @@ class DashboardViewBody extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, AddProductView.routeName);
             },
-            text: 'Add Data',
+            text: 'Add Product',
           ),
         ],
       ),
