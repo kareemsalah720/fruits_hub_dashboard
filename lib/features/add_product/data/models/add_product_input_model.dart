@@ -10,6 +10,12 @@ class AddProductInputModel {
   final File image;
   final bool isFeatured;
   String? imageUrl;
+  final int expirationsMonths;
+  final bool isOrganic;
+  final int numberOfCalories;
+  final num avgRating = 0;
+  final num ratingCount = 0;
+  final int unitAmount;
 
   AddProductInputModel(
       {required this.name,
@@ -18,9 +24,15 @@ class AddProductInputModel {
       required this.price,
       required this.image,
       required this.isFeatured,
+      required this.unitAmount,
+      required this.expirationsMonths,
+      required this.numberOfCalories,
+      required this.isOrganic,
       this.imageUrl});
 
-      factory AddProductInputModel.fromEntity(AddProductInputEntity addProductInputEntity) => AddProductInputModel(
+  factory AddProductInputModel.fromEntity(
+          AddProductInputEntity addProductInputEntity) =>
+      AddProductInputModel(
         name: addProductInputEntity.name,
         code: addProductInputEntity.code,
         description: addProductInputEntity.description,
@@ -28,19 +40,24 @@ class AddProductInputModel {
         image: addProductInputEntity.image,
         isFeatured: addProductInputEntity.isFeatured,
         imageUrl: addProductInputEntity.imageUrl,
+        expirationsMonths: addProductInputEntity.expirationsMonths,
+        numberOfCalories: addProductInputEntity.numberOfCalories,
+        unitAmount: addProductInputEntity.unitAmount,
+        isOrganic: addProductInputEntity.isOrganic,
       );
 
-
-tojson() {
-  return {
-    'name': name,
-    'code': code,
-    'description': description,
-    'price': price,
-    'image': image.path,
-    'isFeatured': isFeatured,
-    'imageUrl': imageUrl,
-  };
-}
-
+  tojson() {
+    return {
+      'name': name,
+      'code': code,
+      'description': description,
+      'price': price,
+      'isFeatured': isFeatured,
+      'imageUrl': imageUrl,
+      'expirationsMonths': expirationsMonths,
+      'numberOfCalories': numberOfCalories,
+      'unitAmount': unitAmount,
+      'isOrganic': isOrganic
+    };
+  }
 }
