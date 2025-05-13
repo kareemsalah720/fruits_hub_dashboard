@@ -5,7 +5,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:path/path.dart' as b;
 
 class SubabaseStorageService implements StorageService {
-  static late SupabaseClient  _supabase;
+  static late SupabaseClient _supabase;
   static createBuckets() async {
     final existingBuckets = await _supabase.storage.listBuckets();
     final exists =
@@ -16,7 +16,7 @@ class SubabaseStorageService implements StorageService {
   }
 
   static initSupabase() async {
-   await Supabase.initialize(
+    await Supabase.initialize(
       url: BackendEndpoint.subabaseUrl,
       anonKey: BackendEndpoint.supabaseKey,
     );
@@ -30,6 +30,10 @@ class SubabaseStorageService implements StorageService {
     var fileReference = await _supabase.storage
         .from(BackendEndpoint.images)
         .upload('$path/$fileName.$extensionName', file);
-    return fileReference;
+    // .getPublicUrl
+    final String fileUrl = _supabase.storage
+        .from(BackendEndpoint.images)
+        .getPublicUrl('$path/$fileName.$extensionName');
+    return fileUrl;
   }
 }
