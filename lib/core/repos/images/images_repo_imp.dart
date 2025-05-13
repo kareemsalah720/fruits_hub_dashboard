@@ -6,7 +6,7 @@ import 'package:fruits_hub_dashboard/core/services/storage_service.dart';
 import 'package:fruits_hub_dashboard/core/utils/backend_endpoint.dart';
 
 class ImagesRepoImpl implements ImagesRepo {
-  final StoarageService stoarageService;
+  final StorageService stoarageService;
 
   ImagesRepoImpl(this.stoarageService);
   @override
